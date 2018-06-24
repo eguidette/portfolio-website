@@ -1,0 +1,39 @@
+body {
+  color:#e6acc1;
+  background-color:#4a4a4a;
+  font-family: 'Roboto', sans-serif;
+  a {
+  color: #e6acc1;
+}
+a:hover {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+  /* style button */
+  background-color: #000000;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ffffff; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+font-size: 16px;
+font-weight: normal;
+  line-height:1.6em;
+h1 {
+  font-size:30px;
+}
+h2 {
+  font-size:25px;
+}
+h3 {
+  font-size: 15px;
+}
