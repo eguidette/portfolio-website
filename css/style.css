@@ -162,10 +162,50 @@ body {
     display: table;
     clear: both;
 }
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
     }
+    button,
+    .button {...}
+     button:hover,
+    .button:hover {...}
+}
+button, /* Applies for buttons in a form */
+.button {/* Applies for links with the button class */
+    border: none;
+    font-family: inherit;
+    background-color: #e6acc1;
+    color: white !important;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #e6acc1;
+    transition-duration: 0.2s;
+    transition-property: opacity;
+}
+button, /* Applies for buttons in a form */
+.button {/* Applies for links with the button class */
+    border: none;
+    font-family: inherit;
+    background-color: #e6acc1;
+    color: white !important;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #e6acc1;
+    transition: 0.2s opacity;
+}
+button, /* Applies for buttons in a form */
+.button {/* Applies for links with the button class */
+    border: none;
+    font-family: inherit;
+    background-color: #e6acc1;
+    color: white !important;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #e6acc1;
+    transition: 0.2s opacity;
 }
