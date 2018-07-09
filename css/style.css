@@ -185,27 +185,23 @@ button, /* Applies for buttons in a form */
     transition-duration: 0.2s;
     transition-property: opacity;
 }
-button, /* Applies for buttons in a form */
-.button {/* Applies for links with the button class */
-    border: none;
-    font-family: inherit;
-    background-color: #e6acc1;
-    color: white !important;
-    text-decoration:none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #e6acc1;
-    transition: 0.2s opacity;
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e6acc1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
-button, /* Applies for buttons in a form */
-.button {/* Applies for links with the button class */
-    border: none;
-    font-family: inherit;
-    background-color: #e6acc1;
-    color: white !important;
-    text-decoration:none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #e6acc1;
-    transition: 0.2s opacity;
+.button:hover {background-color: #e6acc1}
+.button:active {
+  background-color: #e6acc1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
+</style>
