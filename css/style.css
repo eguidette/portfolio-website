@@ -14,18 +14,6 @@ a:focus {
   text-decoration: none;
 }
 
-.button {
-  color: #4a4a4a;
-  background-color: #e6acc1;
-  font-size: 14px;
-  padding: 7px 20px;
-  border-radius: 4px;
-  margin: 15px 0;
-  max-width: fit-content;
-  display: block;
-  text-decoration: none;
-}
-
 h1 {
   font-size:30px;
 }
@@ -76,24 +64,6 @@ img {
   list-style-type: none;
   padding: 0;
   float: right;
-}
-button, /* Applies for buttons in a form */
-.button {/* Applies for links with the button class */
-    border: none;
-    font-family: inherit;
-    background-color: #e6acc1;
-    color: white !important;
-    text-decoration:none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #e6acc1;
-    transition-duration: 0.2s;
-    transition-property: opacity;
-}
-@keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
 }
 .sun {
   animation-duration: 4s;
@@ -174,34 +144,37 @@ body {
 }
 button, /* Applies for buttons in a form */
 .button {/* Applies for links with the button class */
-    border: none;
-    font-family: inherit;
-    background-color: #e6acc1;
-    color: white !important;
-    text-decoration:none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #e6acc1;
-    transition-duration: 0.2s;
-    transition-property: opacity;
-}
-<style>
-.button {
-  padding: 15px 25px;
+  border: none;
+  outline: none;
+  font-family: inherit;
   font-size: 24px;
   text-align: center;
-  cursor: pointer;
-  outline: none;
+  background-color: #e6acc1;
   color: #fff;
-  background-color: #e6acc1;
-  border: none;
-  border-radius: 15px;
   box-shadow: 0 9px #999;
+  cursor: pointer;
+  text-decoration:none;
+  margin: 15px 0;
+  padding: 15px 25px;
+  border-radius: 3px;
+  border-bottom: 2px solid #e6acc1;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
-.button:hover {background-color: #e6acc1}
+.button:hover {
+  color: #e6acc1;
+  background-color: #fff;
+}
+
 .button:active {
-  background-color: #e6acc1;
+  color: #fff;
+  background-color: #FFA9C3;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-</style>
+
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+}
