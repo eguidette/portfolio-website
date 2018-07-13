@@ -178,3 +178,6 @@ button, /* Applies for buttons in a form */
     50% {fill: #fcffad;}
     100% {fill: #f76414;}
 }
+.project-details {
+  display: none;
+}
